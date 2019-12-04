@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	font-family: 'Roboto', Arial, sans-serif;
+	background-color: #f0f0ed
+}
+
+
+.mkt{
+	display: block;
+	width: 600px;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+.mkt--header img{
+	width: 100%;
+}
+
+.mkt--body{
+	padding: 0 20px;
+}
+
+h1, h2{
+	color: #333;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.4rem;
+}
+
+.mkt .logo{
+	height: 80px;
+	display: block;
+	margin: 10px auto;
+}
+
+table{
+	margin: 10px 0;
+	table-layout: fixed ;
+	width: 100% ;
+}
+table td{
+	text-align: center;
+	width: 33% ;
+	vertical-align: top;
+}
+.advantages{
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.advantages span{
+	font-weight: 900;
+	font-size: 2rem;
+	color: #ffda16;
+}
+.advantages img{
+	height: 120px;
+}
+.advantages h2, .why h3{
+	color: #333;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.1rem;
+
+}
+	
+
+.why img{
+	height: 80px;
+}
+.why h3{
+	color: #333;
+}
+
+.why tr td{
+	padding: 20px 5px;
+}
+
+
+.callto{
+	text-align: center;
+	padding: 50px 30px;
+}
+.callto h2{
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+.callto a{
+	text-decoration: none;
+	padding: 10px 20px;
+	background-color: #FFF;
+	border: solid 1px #333;
+	border-radius: 5px;
+	color: #333;
+}
